@@ -1,0 +1,11 @@
+docs_list_title: Basic List
+docs:
+
+- title: Sample 1
+  url: sample1.html#hello
+
+- title: Sample 2
+  url: sample2.html
+
+- title: Sample 3
+  url: sample3.html
