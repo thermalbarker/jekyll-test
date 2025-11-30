@@ -1,0 +1,11 @@
+main:
+  - title: About
+    url: about
+
+samples:
+  - title: Sample 1
+    url: sample1#hello
+  - title: Sample 2
+    url: sample2?p1=foo&p2=bar
+  - title: Sample 3
+    url: sample1#hello
