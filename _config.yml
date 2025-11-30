@@ -26,13 +26,29 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username:  thermalbarker
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  math_engine: mathjax
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
